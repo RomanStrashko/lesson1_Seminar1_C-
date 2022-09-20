@@ -9,7 +9,15 @@ if(number < number2)
 {
     Console.WriteLine($"Число {number} меньше числа {number2}");
 }
-if(number > number2)
-{
-    Console.WriteLine($"Число {number} больше числа {number2}");
-}
+else
+{    
+    if(number > number2)
+    {
+        Console.WriteLine($"Число {number} больше числа {number2}");
+    }
+    else
+    {
+        Console.WriteLine($"Числа равны")
+     }
+}   
+    
